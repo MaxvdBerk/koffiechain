@@ -1,0 +1,28 @@
+{
+  "name": "drankje",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "Warmte": {
+      "type": "number",
+      "required": true
+    },
+    "type": {
+      "type": "string",
+      "required": true,
+      "default": "Pleur"
+    },
+    "grootte": {
+      "type": "string",
+      "required": true,
+      "default": "medium"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

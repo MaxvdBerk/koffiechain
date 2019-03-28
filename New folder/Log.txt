@@ -1,0 +1,76 @@
+{
+    "authorization": {
+        "action": "Microsoft.ContainerInstance/containerGroups/write",
+        "scope": "/subscriptions/c39913c8-f216-48e2-af7d-5305800448d3/resourcegroups/myResourceGroup/providers/Microsoft.ContainerInstance/containerGroups/coffee"
+    },
+    "caller": "MvandenBerk@conclusion.nl",
+    "channels": "Operation",
+    "claims": {
+        "aud": "https://management.core.windows.net/",
+        "iss": "https://sts.windows.net/21429da9-e4ad-45f9-9a6f-cd126a64274b/",
+        "iat": "1553775697",
+        "nbf": "1553775697",
+        "exp": "1553779597",
+        "http://schemas.microsoft.com/claims/authnclassreference": "1",
+        "aio": "42JgYJhWGN29m7e9sSDfJmgxa/cRu2OHxYrU9FfaTZwbuTYl/ToA",
+        "http://schemas.microsoft.com/claims/authnmethodsreferences": "wia",
+        "appid": "c44b4083-3bb0-49c1-b47d-974e53cbdf3c",
+        "appidacr": "2",
+        "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/surname": "van den Berk",
+        "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/givenname": "Max",
+        "groups": "44c38b2f-8c49-45fd-be7f-83bf0c1608a4,f923068d-9517-4cf2-b1ca-1a7cc3ab4469,5a5db5fa-0848-4e72-93c6-8510c65f3dfd,a50a3e9b-2094-46c5-afb1-39bbcba08112,0cb9e73c-d0d7-44e7-8d93-de10baab5faf,25faa842-6c64-4594-b37d-e0af6aa49ade,c0d1db60-3c8d-4381-9922-a876d3e207dd",
+        "in_corp": "true",
+        "ipaddr": "185.108.224.4",
+        "name": "Max van den Berk",
+        "http://schemas.microsoft.com/identity/claims/objectidentifier": "adbf6300-f625-4d80-aa43-22f0de4f8ad0",
+        "onprem_sid": "S-1-5-21-1388625617-2227792348-2314911966-22099",
+        "puid": "100320003CF18470",
+        "http://schemas.microsoft.com/identity/claims/scope": "user_impersonation",
+        "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier": "B8wIqR8JV9gIjrKvo46BsGH8L-z0YznSjkRZsgVXBxc",
+        "http://schemas.microsoft.com/identity/claims/tenantid": "21429da9-e4ad-45f9-9a6f-cd126a64274b",
+        "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name": "MvandenBerk@conclusion.nl",
+        "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/upn": "MvandenBerk@conclusion.nl",
+        "uti": "6VEs2LeSq0Kj_1uAqPqKAA",
+        "ver": "1.0"
+    },
+    "correlationId": "df7e9f55-047e-42ab-a5ed-5ec80fc98e88",
+    "description": "",
+    "eventDataId": "4894b4dd-6853-4de7-9aa1-24703fa472c1",
+    "eventName": {
+        "value": "BeginRequest",
+        "localizedValue": "BeginRequest"
+    },
+    "category": {
+        "value": "Administrative",
+        "localizedValue": "Administrative"
+    },
+    "eventTimestamp": "2019-03-28T12:46:41.9737187Z",
+    "id": "/subscriptions/c39913c8-f216-48e2-af7d-5305800448d3/resourcegroups/myResourceGroup/providers/Microsoft.ContainerInstance/containerGroups/coffee/events/4894b4dd-6853-4de7-9aa1-24703fa472c1/ticks/636893740019737187",
+    "level": "Informational",
+    "operationId": "619a3e26-7fc9-4bd1-817c-a2bd3856c45c",
+    "operationName": {
+        "value": "Microsoft.ContainerInstance/containerGroups/write",
+        "localizedValue": "Microsoft.ContainerInstance/containerGroups/write"
+    },
+    "resourceGroupName": "myResourceGroup",
+    "resourceProviderName": {
+        "value": "Microsoft.ContainerInstance",
+        "localizedValue": "Microsoft.ContainerInstance"
+    },
+    "resourceType": {
+        "value": "Microsoft.ContainerInstance/containerGroups",
+        "localizedValue": "Microsoft.ContainerInstance/containerGroups"
+    },
+    "resourceId": "/subscriptions/c39913c8-f216-48e2-af7d-5305800448d3/resourcegroups/myResourceGroup/providers/Microsoft.ContainerInstance/containerGroups/coffee",
+    "status": {
+        "value": "Started",
+        "localizedValue": "Started"
+    },
+    "subStatus": {
+        "value": "",
+        "localizedValue": ""
+    },
+    "submissionTimestamp": "2019-03-28T12:47:05.0658022Z",
+    "subscriptionId": "c39913c8-f216-48e2-af7d-5305800448d3",
+    "relatedEvents": []
+}
