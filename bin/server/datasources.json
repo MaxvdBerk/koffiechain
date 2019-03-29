@@ -1,0 +1,16 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "Datasource": {
+    "host": "cluster0-mwcqm.azure.mongodb.net",
+    "port": 21017,
+    "url": "mongodb+srv://mongodbamax:CGk4Z63WX3URCct3@cluster0-mwcqm.azure.mongodb.net/test?retryWrites=true",
+    "database": "Caffeine",
+    "password": "CGk4Z63WX3URCct3",
+    "name": "Datasource",
+    "user": "mongodbamax",
+    "connector": "mongodb"
+  }
+}
